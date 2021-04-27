@@ -2,6 +2,10 @@ import * as maptalks from 'maptalks';
 
 window.BMap = {};
 
+/**
+ * 渲染百度路况数据的maptalks扩展图层
+ * @author yy
+ */
 export class BaiduTrafficCanvasLayer extends maptalks.CanvasTileLayer {
 
     constructor(id, options){
